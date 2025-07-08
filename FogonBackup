@@ -1,0 +1,1194 @@
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://[usuario].github.io/fogon-backup-game/">
+<meta property="og:title" content="🔥 Fogón Backup - El Juego Más Jevi para Panas Dominicanos">
+<meta property="og:description" content="Descarga gratis 60 cartas súper jevis. El juego de verdad y reto más picante para adultos. Solo +18 años.">
+<meta property="og:image" content="https://[usuario].github.io/fogon-backup-game/preview.png">
+<meta property="og:locale" content="es_DO">
+<meta property="og:site_name" content="Fogón Backup">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://[usuario].github.io/fogon-backup-game/">
+<meta property="twitter:title" content="🔥 Fogón Backup - El Juego Más Jevi">
+<meta property="twitter:description" content="60 cartas picantes para panas dominicanos. Descarga gratis. Solo +18 años.">
+<meta property="twitter:image" content="https://[usuario].github.io/fogon-backup-game/preview.png">
+
+<!-- Canonical URL -->
+<link rel="canonical" href="https://[usuario].github.io/fogon-backup-game/">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
+
+<!-- Schema.org structured data -->
+<script type="application/ld+json">
+{
+    "@context": "https://schema.org",
+    "@type": "Game",
+    "name": "Fogón Backup",
+    "description": "El juego de cartas más jevi para panas dominicanos. 60 cartas picantes de verdad y reto para adultos mayores de 18 años.",
+    "url": "https://[usuario].github.io/fogon-backup-game/",
+    "author": {
+        "@type": "Person",
+        "name": "Fogón Backup"
+    },
+    "datePublished": "2024-01-01",
+    "dateModified": "2024-01-01",
+    "inLanguage": "es-DO",
+    "contentRating": "18+",
+    "genre": "Party Game",
+    "numberOfPlayers": "2+",
+    "playMode": "CoOp",
+    "applicationCategory": "Game",
+    "operatingSystem": "Any",
+    "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock"
+    },
+    "license": "https://opensource.org/licenses/MIT"
+}
+</script>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@300;400;600;700;800&display=swap');
+    
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: 'Poppins', sans-serif;
+        background: linear-gradient(135deg, #1a1a1a 0%, #2d1b69 50%, #ff6b35 100%);
+        color: white;
+        line-height: 1.6;
+    }
+    
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    
+    /* Header */
+    .header {
+        text-align: center;
+        padding: 60px 0;
+        background: radial-gradient(circle at center, rgba(255, 107, 53, 0.2) 0%, transparent 70%);
+    }
+    
+    .logo {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 4.5rem;
+        background: linear-gradient(45deg, #ff6b35, #f7931e, #ff6b35);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        margin-bottom: 20px;
+        position: relative;
+        animation: glow 2s ease-in-out infinite alternate;
+    }
+    
+    @keyframes glow {
+        from { text-shadow: 0 0 20px rgba(255, 107, 53, 0.5); }
+        to { text-shadow: 0 0 30px rgba(255, 107, 53, 0.8), 0 0 40px rgba(255, 107, 53, 0.3); }
+    }
+    
+    .logo::after {
+        content: '🔥';
+        position: absolute;
+        top: -20px;
+        right: -40px;
+        font-size: 3rem;
+        animation: flicker 1.5s infinite alternate;
+    }
+    
+    @keyframes flicker {
+        0% { transform: rotate(-10deg) scale(1); opacity: 0.8; }
+        100% { transform: rotate(10deg) scale(1.2); opacity: 1; }
+    }
+    
+    .tagline {
+        font-size: 1.5rem;
+        color: #ff6b35;
+        font-weight: 600;
+        margin-bottom: 30px;
+    }
+    
+    .age-warning {
+        background: linear-gradient(135deg, #dc2626, #991b1b);
+        padding: 20px 40px;
+        border-radius: 50px;
+        display: inline-block;
+        font-weight: 700;
+        border: 3px solid #fbbf24;
+        font-size: 1.1rem;
+        box-shadow: 0 10px 30px rgba(220, 38, 38, 0.4);
+    }
+    
+    /* Sección principal */
+    .main-section {
+        padding: 80px 0;
+    }
+    
+    .section-title {
+        font-size: 3rem;
+        font-weight: 800;
+        text-align: center;
+        margin-bottom: 50px;
+        background: linear-gradient(45deg, #ff6b35, #fbbf24);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    
+    /* Grid de descargas */
+    .download-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 30px;
+        margin-bottom: 60px;
+    }
+    
+    .download-card {
+        background: linear-gradient(135deg, rgba(255, 107, 53, 0.1), rgba(124, 45, 18, 0.2));
+        border: 2px solid #ff6b35;
+        border-radius: 20px;
+        padding: 30px;
+        text-align: center;
+        transition: all 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .download-card::before {
+        content: '';
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        width: 200%;
+        height: 200%;
+        background: radial-gradient(circle, rgba(255, 107, 53, 0.1) 0%, transparent 70%);
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    }
+    
+    .download-card:hover::before {
+        opacity: 1;
+    }
+    
+    .download-card:hover {
+        transform: translateY(-10px);
+        box-shadow: 0 20px 40px rgba(255, 107, 53, 0.3);
+        border-color: #fbbf24;
+    }
+    
+    .download-icon {
+        font-size: 4rem;
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .download-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-bottom: 15px;
+        color: #fbbf24;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .download-description {
+        margin-bottom: 25px;
+        color: #ccc;
+        position: relative;
+        z-index: 2;
+    }
+    
+    .download-btn {
+        background: linear-gradient(135deg, #ff6b35, #dc2626);
+        color: white;
+        border: none;
+        padding: 15px 30px;
+        border-radius: 50px;
+        font-size: 1.1rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        position: relative;
+        z-index: 2;
+        width: 100%;
+    }
+    
+    .download-btn:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 10px 20px rgba(255, 107, 53, 0.4);
+    }
+    
+    .download-btn:active {
+        transform: translateY(0);
+    }
+    
+    /* Vista previa */
+    .preview-section {
+        background: rgba(0, 0, 0, 0.3);
+        border-radius: 30px;
+        padding: 50px;
+        margin: 60px 0;
+    }
+    
+    .preview-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+        gap: 30px;
+        margin-top: 40px;
+    }
+    
+    .preview-card {
+        background: linear-gradient(135deg, #dc2626, #7c2d12);
+        border: 3px solid #fbbf24;
+        border-radius: 15px;
+        padding: 25px;
+        text-align: center;
+        height: 200px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .preview-card.dare {
+        background: linear-gradient(135deg, #7c2d12, #dc2626);
+        border-color: #ff6b35;
+    }
+    
+    .preview-type {
+        font-family: 'Bebas Neue', cursive;
+        font-size: 1.5rem;
+        color: #fbbf24;
+        margin-bottom: 15px;
+    }
+    
+    .preview-text {
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+    
+    /* Información del juego */
+    .info-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 40px;
+        margin: 60px 0;
+    }
+    
+    .info-card {
+        background: rgba(255, 107, 53, 0.1);
+        border: 1px solid #ff6b35;
+        border-radius: 20px;
+        padding: 30px;
+    }
+    
+    .info-title {
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: #fbbf24;
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    .info-list {
+        list-style: none;
+    }
+    
+    .info-list li {
+        padding: 8px 0;
+        border-bottom: 1px solid rgba(255, 107, 53, 0.2);
+    }
+    
+    .info-list li:last-child {
+        border-bottom: none;
+    }
+    
+    /* Estadísticas */
+    .stats-section {
+        background: linear-gradient(135deg, #2d1b69, #1a1a1a);
+        border-radius: 20px;
+        padding: 40px;
+        text-align: center;
+        margin: 60px 0;
+    }
+    
+    .stats-grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 30px;
+        margin-top: 30px;
+    }
+    
+    .stat-item {
+        padding: 20px;
+    }
+    
+    .stat-number {
+        font-size: 3rem;
+        font-weight: 800;
+        color: #ff6b35;
+        margin-bottom: 10px;
+    }
+    
+    .stat-label {
+        font-size: 1.1rem;
+        color: #ccc;
+    }
+    
+    /* License Section */
+    .license-section {
+        padding: 60px 0;
+        background: rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+        margin: 60px 0;
+    }
+    
+    /* Footer */
+    .footer {
+        border-top: 2px solid rgba(255, 107, 53, 0.3);
+        margin-top: 60px;
+        padding: 40px 0 20px;
+    }
+    
+    .footer-content {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 30px;
+        margin-bottom: 30px;
+    }
+    
+    .footer-main {
+        text-align: center;
+    }
+    
+    .footer-logo {
+        margin-bottom: 15px;
+    }
+    
+    .footer-text {
+        color: #ccc;
+        line-height: 1.6;
+    }
+    
+    .footer-legal {
+        text-align: center;
+    }
+    
+    .copyright {
+        color: #ff6b35;
+        font-size: 1.1rem;
+        margin-bottom: 15px;
+    }
+    
+    .disclaimer {
+        color: #999;
+        line-height: 1.4;
+        padding: 15px;
+        background: rgba(220, 38, 38, 0.1);
+        border-radius: 10px;
+        border: 1px solid rgba(220, 38, 38, 0.3);
+    }
+    
+    .footer-links {
+        text-align: center;
+    }
+    
+    .social-links {
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 20px;
+    }
+    
+    .social-link {
+        color: #ff6b35;
+        font-size: 1.5rem;
+        transition: all 0.3s ease;
+        cursor: pointer;
+    }
+    
+    .social-link:hover {
+        color: #fbbf24;
+        transform: scale(1.2);
+    }
+    
+    .repo-link {
+        color: #ccc;
+        padding: 10px;
+        background: rgba(255, 107, 53, 0.1);
+        border-radius: 8px;
+        border: 1px solid rgba(255, 107, 53, 0.2);
+    }
+    
+    .repo-link code {
+        color: #ff6b35;
+        font-family: 'Courier New', monospace;
+        font-size: 0.9rem;
+    }
+    
+    .footer-bottom {
+        text-align: center;
+        padding-top: 20px;
+        border-top: 1px solid rgba(255, 107, 53, 0.2);
+        color: #999;
+    }
+    
+    .footer-bottom a {
+        color: #ff6b35;
+        text-decoration: none;
+        transition: color 0.3s ease;
+    }
+    
+    .footer-bottom a:hover {
+        color: #fbbf24;
+    }
+    
+    /* Responsive */
+    @media (max-width: 768px) {
+        .logo {
+            font-size: 3rem;
+        }
+        
+        .section-title {
+            font-size: 2rem;
+        }
+        
+        .download-grid {
+            grid-template-columns: 1fr;
+        }
+        
+        .preview-section {
+            padding: 30px 20px;
+        }
+        
+        .stats-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    
+    /* Animaciones adicionales */
+    .fade-in {
+        animation: fadeIn 1s ease-out;
+    }
+    
+    @keyframes fadeIn {
+        from { opacity: 0; transform: translateY(30px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+</style>
+    <!-- Sección principal de descarga -->
+    <section class="main-section fade-in">
+        <h2 class="section-title">🔥 DESCARGA GRATIS</h2>
+        
+        <div class="download-grid">
+            <div class="download-card">
+                <div class="download-icon">📄</div>
+                <h3 class="download-title">PDF Verdades</h3>
+                <p class="download-description">30 cartas de verdad súper jevis para conocer todos los secretos</p>
+                <button class="download-btn" onclick="downloadTruthPDF()">
+                    📥 Descargar Verdades
+                </button>
+            </div>
+            
+            <div class="download-card">
+                <div class="download-icon">🌶️</div>
+                <h3 class="download-title">PDF Retos</h3>
+                <p class="download-description">30 retos picantes que van a poner a todos a sudar</p>
+                <button class="download-btn" onclick="downloadDarePDF()">
+                    📥 Descargar Retos
+                </button>
+            </div>
+            
+            <div class="download-card">
+                <div class="download-icon">📦</div>
+                <h3 class="download-title">PDF Empaque</h3>
+                <p class="download-description">Diseño profesional de la caja para imprimir tu juego</p>
+                <button class="download-btn" onclick="downloadPackagePDF()">
+                    📥 Descargar Empaque
+                </button>
+            </div>
+            
+            <div class="download-card">
+                <div class="download-icon">🎯</div>
+                <h3 class="download-title">PDF Completo</h3>
+                <p class="download-description">Todo el juego en un solo archivo: cartas, empaque y reglas</p>
+                <button class="download-btn" onclick="downloadCompletePDF()">
+                    📥 Descargar Todo
+                </button>
+            </div>
+            
+            <div class="download-card">
+                <div class="download-icon">📝</div>
+                <h3 class="download-title">Archivo TXT</h3>
+                <p class="download-description">Todas las cartas en texto plano para copiar y pegar</p>
+                <button class="download-btn" onclick="downloadTXTFile()">
+                    📥 Descargar TXT
+                </button>
+            </div>
+            
+            <div class="download-card">
+                <div class="download-icon">⚡</div>
+                <h3 class="download-title">Datos JSON</h3>
+                <p class="download-description">Formato estructurado para desarrolladores y apps</p>
+                <button class="download-btn" onclick="downloadJSONFile()">
+                    📥 Descargar JSON
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Vista previa -->
+    <section class="preview-section fade-in">
+        <h2 class="section-title">👀 VISTA PREVIA</h2>
+        <p style="text-align: center; font-size: 1.1rem; margin-bottom: 30px;">
+            Aquí tienes una muestra de lo que te espera...
+        </p>
+        
+        <div class="preview-grid">
+            <div class="preview-card">
+                <div class="preview-type">🔥 VERDAD</div>
+                <div class="preview-text">¿Con cuál de tus panas te has querido tirar?</div>
+            </div>
+            
+            <div class="preview-card dare">
+                <div class="preview-type">🌶️ RETO</div>
+                <div class="preview-text">Baila perreo por 1 minuto como si estuvieras en el colmado</div>
+            </div>
+            
+            <div class="preview-card">
+                <div class="preview-type">🔥 VERDAD</div>
+                <div class="preview-text">¿Cuál es tu fetiche más raro, tigueraje?</div>
+            </div>
+            
+            <div class="preview-card dare">
+                <div class="preview-type">🌶️ RETO</div>
+                <div class="preview-text">Imita cómo gimes cuando estás singando</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Información del juego -->
+    <section class="info-section fade-in">
+        <div class="info-card">
+            <h3 class="info-title">🎮 Características</h3>
+            <ul class="info-list">
+                <li>✅ 60 cartas súper jevis</li>
+                <li>✅ 30 verdades picantes</li>
+                <li>✅ 30 retos atrevidos</li>
+                <li>✅ Diseño profesional para imprimir</li>
+                <li>✅ Jerga dominicana auténtica</li>
+                <li>✅ Perfecto para grupos de amigos</li>
+            </ul>
+        </div>
+        
+        <div class="info-card">
+            <h3 class="info-title">⚠️ Advertencias</h3>
+            <ul class="info-list">
+                <li>🔞 Solo para mayores de 18 años</li>
+                <li>👥 Para grupos de amigos íntimos</li>
+                <li>🏠 Ambiente privado recomendado</li>
+                <li>🇩🇴 Contenido con jerga dominicana</li>
+                <li>🌶️ Contenido sexualmente explícito</li>
+                <li>🎯 Uso responsable entre adultos</li>
+            </ul>
+        </div>
+        
+        <div class="info-card">
+            <h3 class="info-title">📋 Cómo Jugar</h3>
+            <ul class="info-list">
+                <li>1️⃣ Descarga e imprime las cartas</li>
+                <li>2️⃣ Reúnete con tus panas</li>
+                <li>3️⃣ Mezcla las cartas</li>
+                <li>4️⃣ Cada jugador toma una carta</li>
+                <li>5️⃣ Cumple la verdad o el reto</li>
+                <li>6️⃣ ¡Disfruta la noche loca!</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Estadísticas -->
+    <section class="stats-section fade-in">
+        <h2 class="section-title">📊 ESTADÍSTICAS</h2>
+        <div class="stats-grid">
+            <div class="stat-item">
+                <div class="stat-number">60</div>
+                <div class="stat-label">Cartas Total</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">30</div>
+                <div class="stat-label">Verdades</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">30</div>
+                <div class="stat-label">Retos</div>
+            </div>
+            <div class="stat-item">
+                <div class="stat-number">18+</div>
+                <div class="stat-label">Edad Mínima</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sección de Licencia -->
+    <section class="license-section fade-in">
+        <h2 class="section-title">📄 LICENCIA Y USO</h2>
+        
+        <div class="info-section">
+            <div class="info-card">
+                <h3 class="info-title">⚖️ Licencia MIT</h3>
+                <ul class="info-list">
+                    <li>✅ Uso personal y comercial permitido</li>
+                    <li>✅ Puedes modificar y distribuir</li>
+                    <li>✅ Código fuente abierto</li>
+                    <li>✅ Sin garantías - úsalo bajo tu responsabilidad</li>
+                    <li>✅ Debes mantener el aviso de copyright</li>
+                </ul>
+                <div style="margin-top: 20px; padding: 15px; background: rgba(0,0,0,0.3); border-radius: 10px; font-size: 0.9rem;">
+                    <strong>Repositorio GitHub:</strong><br>
+                    <code style="color: #ff6b35;">github.com/[usuario]/fogon-backup-game</code>
+                </div>
+            </div>
+            
+            <div class="info-card">
+                <h3 class="info-title">🔒 Disclaimer Legal</h3>
+                <ul class="info-list">
+                    <li>🔞 Contenido exclusivo para adultos +18</li>
+                    <li>🎯 Solo para entretenimiento entre amigos</li>
+                    <li>⚠️ El creador no se responsabiliza por el uso</li>
+                    <li>🏠 Úsalo en ambiente privado y seguro</li>
+                    <li>🤝 Respeta los límites de todos los participantes</li>
+                    <li>🇩🇴 Contenido con jerga cultural dominicana</li>
+                </ul>
+            </div>
+            
+            <div class="info-card">
+                <h3 class="info-title">📋 Términos de Uso</h3>
+                <ul class="info-list">
+                    <li>📥 Descarga gratuita para uso personal</li>
+                    <li>🖨️ Puedes imprimir para uso privado</li>
+                    <li>🚫 No vendas el contenido original</li>
+                    <li>✏️ Puedes crear versiones modificadas</li>
+                    <li>🌐 Puedes compartir el enlace libremente</li>
+                    <li>📧 Contacta para usos comerciales especiales</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer fade-in">
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-logo">
+                    <span style="font-family: 'Bebas Neue', cursive; font-size: 1.5rem; color: #ff6b35;">FOGÓN BACKUP 🔥</span>
+                </div>
+                <p class="footer-text">
+                    Hecho con 🔥 para panas dominicanos<br>
+                    El juego más jevi para noches locas
+                </p>
+            </div>
+            
+            <div class="footer-legal">
+                <div class="copyright">
+                    <strong>© 2024 Fogón Backup</strong><br>
+                    Licenciado bajo MIT License
+                </div>
+                <div class="disclaimer">
+                    <small>
+                        ⚠️ Solo para adultos +18 años. Contenido explícito.<br>
+                        El creador no se responsabiliza por el uso del juego.<br>
+                        Úsalo con responsabilidad y respeto entre amigos.
+                    </small>
+                </div>
+            </div>
+            
+            <div class="footer-links">
+                <div class="social-links">
+                    <span class="social-link" title="Fuego dominicano">🔥</span>
+                    <span class="social-link" title="República Dominicana">🇩🇴</span>
+                    <span class="social-link" title="Juego de cartas">🎮</span>
+                    <span class="social-link" title="Código abierto">⚖️</span>
+                </div>
+                <div class="repo-link">
+                    <small>
+                        📂 <strong>Código fuente:</strong><br>
+                        <code>github.com/[usuario]/fogon-backup-game</code>
+                    </small>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <small>
+                Versión 1.0 | Última actualización: <span id="lastUpdate"></span> | 
+                <a href="#" onclick="showLicenseModal()" style="color: #ff6b35;">Ver Licencia Completa</a>
+            </small>
+        </div>
+    </footer>
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+    const spicyTruths = [
+        "¿Con cuál de tus panas te has querido tirar?",
+        "¿Cuál es la cosa más loca que has hecho por singarte a alguien?",
+        "¿Has tenido ganas de comerte a alguien de este grupo?",
+        "¿Cuál es tu posición favorita pa' singá?",
+        "¿Te has masturbado pensando en alguien presente?",
+        "¿Cuál es el lugar más jevi donde has singao?",
+        "¿Has mandado fotos en pelota por WhatsApp?",
+        "¿Te gusta que te hablen sucio cuando estás singando?",
+        "¿Has fingido un orgasmo? ¿Con quién?",
+        "¿Cuál es tu fetiche más raro, tigueraje?",
+        "¿Has tenido un trío? Cuenta los detalles",
+        "¿Te has tirado a alguien solo por despecho?",
+        "¿Cuál es la mentira más grande que has dicho pa' singá?",
+        "¿Has grabado un video singando?",
+        "¿Te gusta más dar o recibir sexo oral?",
+        "¿Has tenido sexo en casa de tus padres?",
+        "¿Cuál es tu parte del cuerpo favorita del sexo opuesto?",
+        "¿Has usado juguetes sexuales? ¿Cuáles?",
+        "¿Te has tirado a alguien mucho mayor que tú?",
+        "¿Cuál es tu mayor complejo en la cama?",
+        "¿Has tenido sexo por dinero o regalos?",
+        "¿Te gusta el sexo rudo o suave?",
+        "¿Has tenido ganas de tirarte a tu jefe/jefa?",
+        "¿Cuál es tu zona erógena más sensible?",
+        "¿Has tenido sexo en un carro?",
+        "¿Te has masturbado en el trabajo?",
+        "¿Cuál es tu fantasía sexual más loca?",
+        "¿Has tenido sexo con alguien comprometido?",
+        "¿Te gusta que te dominen en la cama?",
+        "¿Cuál es el orgasmo más intenso que has tenido?"
+    ];
+
+    const spicyDares = [
+        "Baila perreo por 1 minuto como si estuvieras en el colmado",
+        "Imita cómo gimes cuando estás singando",
+        "Haz una llamada y dile a alguien que lo quieres singá",
+        "Cuenta en detalle tu primera vez",
+        "Haz el baile del tubo usando una botella",
+        "Manda un mensaje caliente a tu ex",
+        "Imita tu cara cuando llegas al clímax",
+        "Baila reggaeton bien pegao con alguien del grupo",
+        "Describe tu posición favorita con lujo de detalles",
+        "Haz sonidos de placer por 30 segundos",
+        "Quítate una prenda de ropa de forma seductora",
+        "Cuenta tu experiencia sexual más loca",
+        "Haz twerking por 1 minuto completo",
+        "Imita cómo seduces a alguien que te gusta",
+        "Manda una foto provocativa a alguien (sin mostrar nada)",
+        "Cuenta qué harías si tuvieras a tu crush desnudo",
+        "Baila como si estuvieras en un table dance",
+        "Haz una demostración de cómo besas",
+        "Cuenta tu sueño erótico más raro",
+        "Imita los sonidos que haces durante el sexo oral",
+        "Haz una pose sexy y tómate una foto",
+        "Cuenta qué te pone más caliente de alguien presente",
+        "Baila sensual con los ojos cerrados",
+        "Describe tu fetiche más raro actuándolo",
+        "Haz como que estás teniendo un orgasmo",
+        "Cuenta la mentira más grande que has dicho por sexo",
+        "Imita cómo te masturbas (sin tocarte)",
+        "Haz una confesión sexual que nadie sepa",
+        "Baila como si fueras stripper por 2 minutos",
+        "Cuenta qué harías en una noche loca sin límites"
+    ];
+
+    // Funciones de descarga PDF
+    async function downloadTruthPDF() {
+        const { jsPDF } = window.jspdf;
+        const pdf = new jsPDF('p', 'mm', 'a4');
+        
+        // Portada
+        pdf.setFontSize(24);
+        pdf.setTextColor(255, 107, 53);
+        pdf.text('FOGÓN BACKUP 🔥', 20, 30);
+        pdf.setFontSize(16);
+        pdf.setTextColor(0, 0, 0);
+        pdf.text('CARTAS VERDAD - El juego más jevi para panas', 20, 45);
+        
+        let yPosition = 70;
+        pdf.setFontSize(12);
+        
+        spicyTruths.forEach((truth, index) => {
+            if (yPosition > 270) {
+                pdf.addPage();
+                yPosition = 20;
+            }
+            
+            pdf.setFont(undefined, 'bold');
+            pdf.text(`VERDAD #${index + 1}:`, 20, yPosition);
+            pdf.setFont(undefined, 'normal');
+            
+            const lines = pdf.splitTextToSize(truth, 170);
+            pdf.text(lines, 20, yPosition + 7);
+            yPosition += (lines.length * 7) + 15;
+        });
+        
+        pdf.save('Fogon-Backup-Verdades.pdf');
+    }
+
+    async function downloadDarePDF() {
+        const { jsPDF } = window.jspdf;
+        const pdf = new jsPDF('p', 'mm', 'a4');
+        
+        pdf.setFontSize(24);
+        pdf.setTextColor(255, 107, 53);
+        pdf.text('FOGÓN BACKUP 🌶️', 20, 30);
+        pdf.setFontSize(16);
+        pdf.setTextColor(0, 0, 0);
+        pdf.text('CARTAS RETO - El juego más jevi para panas', 20, 45);
+        
+        let yPosition = 70;
+        pdf.setFontSize(12);
+        
+        spicyDares.forEach((dare, index) => {
+            if (yPosition > 270) {
+                pdf.addPage();
+                yPosition = 20;
+            }
+            
+            pdf.setFont(undefined, 'bold');
+            pdf.text(`RETO #${index + 1}:`, 20, yPosition);
+            pdf.setFont(undefined, 'normal');
+            
+            const lines = pdf.splitTextToSize(dare, 170);
+            pdf.text(lines, 20, yPosition + 7);
+            yPosition += (lines.length * 7) + 15;
+        });
+        
+        pdf.save('Fogon-Backup-Retos.pdf');
+    }
+
+    async function downloadPackagePDF() {
+        const { jsPDF } = window.jspdf;
+        const pdf = new jsPDF('p', 'mm', 'a4');
+        
+        pdf.setFontSize(28);
+        pdf.setTextColor(255, 107, 53);
+        pdf.text('FOGÓN BACKUP 🔥', 20, 40);
+        
+        pdf.setFontSize(18);
+        pdf.setTextColor(0, 0, 0);
+        pdf.text('El juego más jevi para panas dominicanos', 20, 60);
+        
+        pdf.setFontSize(14);
+        pdf.text('CARACTERÍSTICAS DEL JUEGO:', 20, 90);
+        pdf.setFontSize(12);
+        pdf.text('• 60 Cartas súper jevis', 25, 105);
+        pdf.text('• 30 Verdades picantes', 25, 115);
+        pdf.text('• 30 Retos atrevidos', 25, 125);
+        pdf.text('• Diseño profesional', 25, 135);
+        pdf.text('• Jerga dominicana auténtica', 25, 145);
+        pdf.text('• Perfecto para grupos de amigos', 25, 155);
+        
+        pdf.setFontSize(14);
+        pdf.setTextColor(220, 38, 38);
+        pdf.text('⚠️ ADVERTENCIAS IMPORTANTES ⚠️', 20, 180);
+        pdf.setFontSize(12);
+        pdf.setTextColor(0, 0, 0);
+        pdf.text('• Contenido exclusivamente para adultos mayores de 18 años', 20, 195);
+        pdf.text('• Juego diseñado para grupos de amigos en ambiente privado', 20, 205);
+        pdf.text('• Contenido con jerga dominicana explícita', 20, 215);
+        pdf.text('• Uso responsable entre adultos que se conocen', 20, 225);
+        
+        pdf.setFontSize(10);
+        pdf.setTextColor(100, 100, 100);
+        pdf.text('Fogón Backup © 2024 - Juego gratuito para uso personal', 20, 270);
+        
+        pdf.save('Fogon-Backup-Empaque.pdf');
+    }
+
+    async function downloadCompletePDF() {
+        const { jsPDF } = window.jspdf;
+        const pdf = new jsPDF('p', 'mm', 'a4');
+        
+        // Portada
+        pdf.setFontSize(32);
+        pdf.setTextColor(255, 107, 53);
+        pdf.text('FOGÓN BACKUP 🔥', 20, 50);
+        pdf.setFontSize(18);
+        pdf.setTextColor(0, 0, 0);
+        pdf.text('El juego más jevi para panas dominicanos', 20, 70);
+        
+        pdf.setFontSize(14);
+        pdf.setTextColor(220, 38, 38);
+        pdf.text('⚠️ SOLO PARA MAYORES DE 18 AÑOS ⚠️', 20, 100);
+        
+        pdf.setFontSize(12);
+        pdf.setTextColor(0, 0, 0);
+        pdf.text('CONTENIDO COMPLETO:', 20, 130);
+        pdf.text('• 30 Cartas de Verdad', 25, 145);
+        pdf.text('• 30 Cartas de Reto', 25, 155);
+        pdf.text('• Instrucciones de juego', 25, 165);
+        pdf.text('• Diseño del empaque', 25, 175);
+        
+        // Verdades
+        pdf.addPage();
+        pdf.setFontSize(20);
+        pdf.setTextColor(255, 107, 53);
+        pdf.text('CARTAS VERDAD 🔥', 20, 20);
+        
+        let yPosition = 40;
+        pdf.setFontSize(10);
+        pdf.setTextColor(0, 0, 0);
+        
+        spicyTruths.forEach((truth, index) => {
+            if (yPosition > 270) {
+                pdf.addPage();
+                yPosition = 20;
+            }
+            
+            pdf.setFont(undefined, 'bold');
+            pdf.text(`${index + 1}.`, 20, yPosition);
+            pdf.setFont(undefined, 'normal');
+            
+            const lines = pdf.splitTextToSize(truth, 165);
+            pdf.text(lines, 25, yPosition);
+            yPosition += (lines.length * 5) + 8;
+        });
+        
+        // Retos
+        pdf.addPage();
+        pdf.setFontSize(20);
+        pdf.setTextColor(255, 107, 53);
+        pdf.text('CARTAS RETO 🌶️', 20, 20);
+        
+        yPosition = 40;
+        pdf.setFontSize(10);
+        pdf.setTextColor(0, 0, 0);
+        
+        spicyDares.forEach((dare, index) => {
+            if (yPosition > 270) {
+                pdf.addPage();
+                yPosition = 20;
+            }
+            
+            pdf.setFont(undefined, 'bold');
+            pdf.text(`${index + 1}.`, 20, yPosition);
+            pdf.setFont(undefined, 'normal');
+            
+            const lines = pdf.splitTextToSize(dare, 165);
+            pdf.text(lines, 25, yPosition);
+            yPosition += (lines.length * 5) + 8;
+        });
+        
+        pdf.save('Fogon-Backup-Completo.pdf');
+    }
+
+    function downloadTXTFile() {
+        let content = "FOGÓN BACKUP - EL JUEGO MÁS JEVI PARA PANAS DOMINICANOS\n";
+        content += "=" + "=".repeat(65) + "\n\n";
+        content += "⚠️ SOLO PARA MAYORES DE 18 AÑOS ⚠️\n\n";
+        content += "Descargado desde: [Tu sitio web]\n";
+        content += "Fecha: " + new Date().toLocaleDateString() + "\n\n";
+        
+        content += "🔥 CARTAS VERDAD (30 cartas)\n";
+        content += "-".repeat(40) + "\n\n";
+        
+        spicyTruths.forEach((truth, index) => {
+            content += `${index + 1}. ${truth}\n\n`;
+        });
+        
+        content += "\n🌶️ CARTAS RETO (30 cartas)\n";
+        content += "-".repeat(40) + "\n\n";
+        
+        spicyDares.forEach((dare, index) => {
+            content += `${index + 1}. ${dare}\n\n`;
+        });
+        
+        content += "\n📋 CÓMO JUGAR\n";
+        content += "-".repeat(40) + "\n";
+        content += "1. Descarga e imprime las cartas\n";
+        content += "2. Reúnete con tus panas\n";
+        content += "3. Mezcla las cartas\n";
+        content += "4. Cada jugador toma una carta\n";
+        content += "5. Cumple la verdad o el reto\n";
+        content += "6. ¡Disfruta la noche loca!\n\n";
+        
+        content += "⚠️ ADVERTENCIAS IMPORTANTES:\n";
+        content += "• Contenido exclusivamente para adultos mayores de 18 años\n";
+        content += "• Juego diseñado para grupos de amigos en ambiente privado\n";
+        content += "• Contenido con jerga dominicana explícita\n";
+        content += "• Uso responsable entre adultos que se conocen\n\n";
+        
+        content += "Fogón Backup © 2024 - Juego gratuito para uso personal\n";
+        
+        const blob = new Blob([content], { type: 'text/plain;charset=utf-8' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'Fogon-Backup-Completo.txt';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+
+    function downloadJSONFile() {
+        const gameData = {
+            name: "Fogón Backup",
+            description: "El juego más jevi para panas dominicanos",
+            version: "1.0",
+            ageRating: "18+",
+            language: "es-DO",
+            totalCards: 60,
+            downloadDate: new Date().toISOString(),
+            truths: spicyTruths.map((truth, index) => ({
+                id: index + 1,
+                type: "verdad",
+                text: truth,
+                category: "adult"
+            })),
+            dares: spicyDares.map((dare, index) => ({
+                id: index + 1,
+                type: "reto",
+                text: dare,
+                category: "adult"
+            })),
+            gameInfo: {
+                features: [
+                    "60 Cartas súper jevis",
+                    "30 verdades picantes",
+                    "30 retos atrevidos",
+                    "Diseño profesional para imprimir",
+                    "Jerga dominicana auténtica",
+                    "Perfecto para grupos de amigos"
+                ],
+                warnings: [
+                    "Contenido exclusivamente para adultos mayores de 18 años",
+                    "Juego diseñado para grupos de amigos en ambiente privado",
+                    "Contenido con jerga dominicana explícita",
+                    "Uso responsable entre adultos que se conocen"
+                ],
+                howToPlay: [
+                    "Descarga e imprime las cartas",
+                    "Reúnete con tus panas",
+                    "Mezcla las cartas",
+                    "Cada jugador toma una carta",
+                    "Cumple la verdad o el reto",
+                    "¡Disfruta la noche loca!"
+                ]
+            },
+            copyright: "Fogón Backup © 2024 - Juego gratuito para uso personal"
+        };
+        
+        const jsonString = JSON.stringify(gameData, null, 2);
+        const blob = new Blob([jsonString], { type: 'application/json' });
+        const url = URL.createObjectURL(blob);
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = 'Fogon-Backup-Data.json';
+        document.body.appendChild(a);
+        a.click();
+        document.body.removeChild(a);
+        URL.revokeObjectURL(url);
+    }
+
+    // Mostrar modal de licencia
+    function showLicenseModal() {
+        const modal = document.createElement('div');
+        modal.style.cssText = `
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.8);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            z-index: 10000;
+            padding: 20px;
+        `;
+        
+        modal.innerHTML = `
+            <div style="
+                background: linear-gradient(135deg, #1a1a1a, #2d1b69);
+                border: 2px solid #ff6b35;
+                border-radius: 20px;
+                padding: 30px;
+                max-width: 600px;
+                max-height: 80vh;
+                overflow-y: auto;
+                color: white;
+            ">
+                <h2 style="color: #ff6b35; margin-bottom: 20px; font-family: 'Bebas Neue', cursive; font-size: 2rem;">
+                    📄 LICENCIA MIT
+                </h2>
+                <div style="font-size: 0.9rem; line-height: 1.6; margin-bottom: 20px;">
+                    <p><strong>Copyright (c) 2024 Fogón Backup</strong></p>
+                    <br>
+                    <p>Se concede permiso, libre de cargos, a cualquier persona que obtenga una copia de este software y de los archivos de documentación asociados (el "Software"), a utilizar el Software sin restricción, incluyendo sin limitación los derechos a usar, copiar, modificar, fusionar, publicar, distribuir, sublicenciar, y/o vender copias del Software, y a permitir a las personas a las que se les proporcione el Software a hacer lo mismo, sujeto a las siguientes condiciones:</p>
+                    <br>
+                    <p>El aviso de copyright anterior y este aviso de permiso se incluirán en todas las copias o partes sustanciales del Software.</p>
+                    <br>
+                    <p style="color: #fbbf24;"><strong>EL SOFTWARE SE PROPORCIONA "COMO ESTÁ", SIN GARANTÍA DE NINGÚN TIPO, EXPRESA O IMPLÍCITA, INCLUYENDO PERO NO LIMITADO A GARANTÍAS DE COMERCIALIZACIÓN, IDONEIDAD PARA UN PROPÓSITO PARTICULAR E INCUMPLIMIENTO. EN NINGÚN CASO LOS AUTORES O PROPIETARIOS DE LOS DERECHOS DE AUTOR SERÁN RESPONSABLES DE NINGUNA RECLAMACIÓN, DAÑOS U OTRAS RESPONSABILIDADES, YA SEA EN UNA ACCIÓN DE CONTRATO, AGRAVIO O CUALQUIER OTRO MOTIVO, DERIVADAS DE, FUERA DE O EN CONEXIÓN CON EL SOFTWARE O SU USO U OTRO TIPO DE ACCIONES EN EL SOFTWARE.</strong></p>
+                </div>
+                <div style="text-align: center;">
+                    <button onclick="this.parentElement.parentElement.parentElement.remove()" style="
+                        background: linear-gradient(135deg, #ff6b35, #dc2626);
+                        color: white;
+                        border: none;
+                        padding: 12px 30px;
+                        border-radius: 25px;
+                        font-weight: 700;
+                        cursor: pointer;
+                        font-size: 1rem;
+                    ">
+                        ✅ ENTENDIDO
+                    </button>
+                </div>
+            </div>
+        `;
+        
+        modal.onclick = (e) => {
+            if (e.target === modal) {
+                modal.remove();
+            }
+        };
+        
+        document.body.appendChild(modal);
+    }
+
+    // Actualizar fecha
+    function updateLastModified() {
+        const lastUpdate = document.getElementById('lastUpdate');
+        if (lastUpdate) {
+            lastUpdate.textContent = new Date().toLocaleDateString('es-DO');
+        }
+    }
+
+    // Animaciones al hacer scroll
+    const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+    };
+
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.style.animation = 'fadeIn 1s ease-out forwards';
+            }
+        });
+    }, observerOptions);
+
+    document.addEventListener('DOMContentLoaded', () => {
+        document.querySelectorAll('.fade-in').forEach(el => {
+            observer.observe(el);
+        });
+        updateLastModified();
+    });
+</script>
