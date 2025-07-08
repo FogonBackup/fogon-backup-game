@@ -9,13 +9,13 @@
 
 <!-- Twitter -->
 <meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:url" content="https://[usuario].github.io/fogon-backup-game/">
+<meta property="twitter:url" content="https://FogonBackup.github.io/fogon-backup-game/">
 <meta property="twitter:title" content="🔥 Fogón Backup - El Juego Más Jevi">
 <meta property="twitter:description" content="60 cartas picantes para panas dominicanos. Descarga gratis. Solo +18 años.">
 <meta property="twitter:image" content="https://[usuario].github.io/fogon-backup-game/preview.png">
 
 <!-- Canonical URL -->
-<link rel="canonical" href="https://[usuario].github.io/fogon-backup-game/">
+<link rel="canonical" href="https://FogonBackup.github.io/fogon-backup-game/">
 
 <!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
@@ -27,7 +27,7 @@
     "@type": "Game",
     "name": "Fogón Backup",
     "description": "El juego de cartas más jevi para panas dominicanos. 60 cartas picantes de verdad y reto para adultos mayores de 18 años.",
-    "url": "https://[usuario].github.io/fogon-backup-game/",
+    "url": "https://FogonBackup.github.io/fogon-backup-game/",
     "author": {
         "@type": "Person",
         "name": "Fogón Backup"
