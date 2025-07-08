@@ -1192,3 +1192,8 @@
         updateLastModified();
     });
 </script>
+mkdir docs
+touch docs/.keep
+git add docs/.keep
+git commit -m "Crear carpeta docs vacía para que funcione GitHub Pages"
+git push
